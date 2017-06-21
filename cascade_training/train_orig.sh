@@ -1,0 +1,1 @@
+opencv_traincascade -data /home/artemka/PlanesRecognition/cascade_training/cascade_orig -vec /home/artemka/PlanesRecognition/cascade_training/samples_orig.vec -bg /home/artemka/PlanesRecognition/cascade_training/bad_orig.dat -numStages 16 -minhitrate 0.99 -maxFalseAlarmRate 0.4 -numPos 250 -numNeg 400 -w 40 -h 40 -mode ALL -precalcValBufSize 1024 -precalcIdxBufSize 1024
